@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>sql-to-jpa-kotlin</id>
+    <name>Sql To Jpa(kotlin)</name>
+    <description>Please make sure to provide the description in English</description>
+    <vendor>
+        cloudcodec
+    </vendor>
+    <actions>
+        <action id="com.github.cloudcodec.GenerateAction"
+                class="com.github.cloudcodec.GenerateAction"
+                text="Generate jpa">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
